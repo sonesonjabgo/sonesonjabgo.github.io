@@ -24,8 +24,8 @@
     }
 
     .link.blocked {
-      text-decoration: line-through;
-      pointer-events: none;
+      color: #999;
+      cursor: not-allowed;
     }
 
     .trailing-section {
@@ -41,4 +41,12 @@
       }
     }
   }
+}
+
+.custom-tooltip {
+  background-color: #999;
+  color: white;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 8px 8px;
 }

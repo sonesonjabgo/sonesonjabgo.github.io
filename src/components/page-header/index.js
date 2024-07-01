@@ -3,6 +3,7 @@ import React from 'react';
 import Post from '../../models/post';
 import PostSearch from '../post-search';
 import './style.scss';
+import Tippy from '@tippyjs/react';
 
 function PageHeader({ siteTitle }) {
   return (
@@ -36,9 +37,11 @@ function PageHeader({ siteTitle }) {
               <Link className="link" to="/about">
                 about
               </Link>
-              <a className="link blocked" href="http://www.google.com" target="_blank">
-                portpolio
-              </a>
+              <Tippy content="준비 중" className="custom-tooltip">
+                <a className="link blocked" href="http://www.google.com" target="_blank">
+                  portfolio
+                </a>
+              </Tippy>
               <Link className="link" to="/posts">
                 posts
               </Link>
