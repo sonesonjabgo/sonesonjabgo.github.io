@@ -18,9 +18,9 @@ module.exports = {
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
-      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      github: `https://github.com/sonesonjabgo`, // `https://github.com/zoomKoding`,
+      linkedIn: `https://www.linkedin.com/in/jaehyung-a225b3255/`, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
+      email: `thswogud02@gmail.com`, // `zoomkoding@gmail.com`,
     },
   },
 
