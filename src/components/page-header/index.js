@@ -36,6 +36,9 @@ function PageHeader({ siteTitle }) {
               <Link className="link" to="/about">
                 about
               </Link>
+              <a className="link blocked" href="http://www.google.com" target="_blank">
+                portpolio
+              </a>
               <Link className="link" to="/posts">
                 posts
               </Link>
