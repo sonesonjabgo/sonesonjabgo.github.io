@@ -1,7 +1,7 @@
 ---
 emoji:
 title: next.js hydration
-date: '2024-07-04 15:00:00'
+date: '2024-07-15 15:00:00'
 author: 손재형
 tags: Next
 categories: Next
@@ -26,6 +26,7 @@ categories: Next
 - 그 뒤에 hydration이 이루어짐
 - 이 과정 덕에 SPA의 단점인 초기 랜더링 시 오래 걸리는 문제를 해결함
   - 자바스크립트가 랜더링 하는 것을 기다리지 않기 때문
+- hydration은 단순 HTML을 React application으로 초기화 하는 작업
 
 ## <a> vs <Link>
 
@@ -36,3 +37,10 @@ categories: Next
 - Link 태그는 브라우저 주소만 바꾸고 페이지 새로 불러오지는 않음.
 - 따라서 SPA인 리액트는 Link 사용을 권장함
 - 하이드레이션이 되기 전 정적 html에서 link 태그는 a 태그와 같이 취급된다.
+
+## use client
+
+- CSR을 사용할 컴포넌트 상단에 적어줘야 하는 문구이다.
+- 이는 단순히 클라이언트에서 렌더 된다는 의미가 아님.
+- 서버에서 정적인 html을 렌더하고 클라이언트에서 hydrate 하겠다는 의미.
+  - 이 과정으로 컴포넌트는 interactive 해짐
