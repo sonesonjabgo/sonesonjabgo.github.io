@@ -24,4 +24,7 @@ export const metadata: Metadata = {
 
   - 규칙에 맞춰 넣으면 된다
 
+- 메타데이터는 layout.tsx와 page.tsx에만 작성 가능하다.
+- client component에서는 메타데이터 export 불가능하다.
+
 - 공식 문서 : https://nextjs.org/docs/app/building-your-application/optimizing/metadata
