@@ -1,10 +1,10 @@
 ---
 emoji: ⚛️
-title: Suspense,
+title: Suspense
 date: '2024-07-16 14:00:00'
 author: 손재형
 tags: React
-categories: React, Next
+categories: React Next
 ---
 
 - await를 해야하는 부분을 명시적으로 나타내는 것
