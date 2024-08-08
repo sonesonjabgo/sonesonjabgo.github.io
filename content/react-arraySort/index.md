@@ -3,8 +3,8 @@ emoji: ⚛️
 title: 셀렉트 태그 이벤트를 통한 정렬
 date: '2024-08-08 15:00:00'
 author: 손재형
-tags: React, javascript
-categories: React, javascript
+tags: React javascript
+categories: React javascript
 ---
 
 ```ts
