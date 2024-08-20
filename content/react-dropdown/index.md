@@ -1,7 +1,7 @@
 ---
 emoji: ⚛️
 title: 드롭다운 메뉴
-date: '2024-08-012 15:00:00'
+date: '2024-08-12 15:00:00'
 author: 손재형
 tags: React javascript
 categories: React javascript
