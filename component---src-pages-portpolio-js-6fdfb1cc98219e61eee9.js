@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkzoomkoding_com=self.webpackChunkzoomkoding_com||[]).push([[61],{9635:function(o,e,n){n.r(e);var t=n(7294);e.default=function(){return t.createElement("div",null,"portpolio")}}}]);
-//# sourceMappingURL=component---src-pages-portpolio-js-6fdfb1cc98219e61eee9.js.map
